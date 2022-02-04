@@ -15,16 +15,16 @@ body{
 }
 
 .top-header{
-    width: 100vw;
-    height: 70px;
-    line-height: 70px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
     position: fixed;
     top: 0px;
     background-color: white;
-    z-index: 2;
+    z-index: 10;
     font-size: 12px;
     font-weight: bold;
-    border: 2px dashed black;
+    /*border: 2px dashed black;*/
 }
 
 #logo, .left{
@@ -36,7 +36,7 @@ body{
 }
 
 #logo{
-    margin: 20px 20px 0px;
+    margin: 15px 15px 0px;
 }
 
 nav li{
@@ -54,14 +54,75 @@ nav li a:hover{
     text-decoration: underline;
 }
 
-#start{
+.blue-link{
     color: white;
-    padding: 2px 10px;
+    padding: 4px 12px;
     background-color: #0061ff;
 }
 
-#start:hover{
-    text-decoration: none;
+/*.jumbo-tron,
+.jumbo-container,
+.title,
+.free-trial,
+.app-image{
+    border: 2px dashed black;    
+}*/
+
+.jumbo-tron{
+    width: 100%;
+    height: 610px;
+    margin-top: 60px;
 }
 
+.jumbo-container{
+    width: 100%;
+    height: 550px;
+    background-color: #99c0ff;
+}
+
+.title{
+    width: 80%;
+    height: 200px;
+    margin: 0px 10%;
+    font-size: 32px;
+    line-height: 60px;
+}
+
+.title h1{
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.free-trial{
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin-left: 10%;
+    padding-top: 40px;
+    padding-right: 40px;
+    font-size: 14px;
+}
+
+.free-trial a{
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.app-image{
+    width: 50%;
+    height: 415px;
+    float: left;
+}
+
+.app-image img{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    z-index: 2;
+}
+
+#arrow{
+    width: 10%;
+    height: auto;
+}
 
