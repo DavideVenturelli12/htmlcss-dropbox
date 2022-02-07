@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix::after {
@@ -23,7 +23,7 @@ body{
     background-color: white;
     z-index: 10;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 700;
     /*border: 2px dashed black;*/
 }
 
@@ -84,6 +84,7 @@ nav li a:hover{
     height: 200px;
     margin: 0px 10%;
     font-size: 30px;
+    font-weight: 700;
     padding-top: 30px;
     /*border: 2px dashed black;*/
 }
